@@ -82,12 +82,12 @@ wkt = "0.14"
 # Internal dependencies
 oxigraph = { version = "=0.5.0-beta.1", path = "lib/oxigraph" }
 oxjsonld = { version = "=0.2.0-beta.1", path = "lib/oxjsonld" }
-oxrdf = { version = "=0.3.0-beta.1", path = "lib/oxrdf" }
+oxrdf = { version = "=0.3.0-beta.1", path = "lib/oxrdf", package = "oxrdf_elevont" }
 oxrdfio = { version = "=0.2.0-beta.1", path = "lib/oxrdfio" }
 oxrdfxml = { version = "=0.2.0-beta.1", path = "lib/oxrdfxml" }
 oxrocksdb-sys = { version = "=0.5.0-beta.1", path = "./oxrocksdb-sys" }
 oxsdatatypes = { version = "=0.2.2", path = "lib/oxsdatatypes" }
-oxttl = { version = "=0.2.0-beta.1", path = "lib/oxttl" }
+oxttl = { version = "=0.2.0-beta.1", path = "lib/oxttl", package = "oxttl_elevont" }
 spargebra = { version = "=0.4.0-beta.1", path = "lib/spargebra" }
 spargeo = { version = "=0.5.0-beta.1", path = "lib/spargeo" }
 sparesults = { version = "=0.3.0-beta.1", path = "lib/sparesults" }

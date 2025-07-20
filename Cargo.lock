@@ -1554,7 +1554,7 @@ dependencies = [
  "libc",
  "oxhttp",
  "oxiri",
- "oxrdf",
+ "oxrdf_elevont",
  "oxrdfio",
  "oxrocksdb-sys",
  "oxsdatatypes",
@@ -1610,7 +1610,7 @@ dependencies = [
  "oxigraph",
  "oxiri",
  "oxjsonld",
- "oxttl",
+ "oxttl_elevont",
  "spareval",
  "spargebra",
  "spargeo",
@@ -1640,13 +1640,13 @@ version = "0.2.0-beta.1"
 dependencies = [
  "json-event-parser",
  "oxiri",
- "oxrdf",
+ "oxrdf_elevont",
  "thiserror 2.0.12",
  "tokio",
 ]
 
 [[package]]
-name = "oxrdf"
+name = "oxrdf_elevont"
 version = "0.3.0-beta.1"
 dependencies = [
  "oxilangtag",
@@ -1663,9 +1663,9 @@ name = "oxrdfio"
 version = "0.2.0-beta.1"
 dependencies = [
  "oxjsonld",
- "oxrdf",
+ "oxrdf_elevont",
  "oxrdfxml",
- "oxttl",
+ "oxttl_elevont",
  "thiserror 2.0.12",
  "tokio",
 ]
@@ -1676,7 +1676,7 @@ version = "0.2.0-beta.1"
 dependencies = [
  "oxilangtag",
  "oxiri",
- "oxrdf",
+ "oxrdf_elevont",
  "quick-xml",
  "thiserror 2.0.12",
  "tokio",
@@ -1700,13 +1700,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "oxttl"
+name = "oxttl_elevont"
 version = "0.2.0-beta.1"
 dependencies = [
  "memchr",
  "oxilangtag",
  "oxiri",
- "oxrdf",
+ "oxrdf_elevont",
  "rayon",
  "thiserror 2.0.12",
  "tokio",
@@ -2364,7 +2364,7 @@ version = "0.3.0-beta.1"
 dependencies = [
  "json-event-parser",
  "memchr",
- "oxrdf",
+ "oxrdf_elevont",
  "quick-xml",
  "thiserror 2.0.12",
  "tokio",
@@ -2378,7 +2378,7 @@ dependencies = [
  "json-event-parser",
  "md-5",
  "oxiri",
- "oxrdf",
+ "oxrdf_elevont",
  "oxsdatatypes",
  "rand",
  "regex",
@@ -2397,7 +2397,7 @@ version = "0.4.0-beta.1"
 dependencies = [
  "oxilangtag",
  "oxiri",
- "oxrdf",
+ "oxrdf_elevont",
  "peg",
  "rand",
  "thiserror 2.0.12",
@@ -2418,7 +2418,7 @@ dependencies = [
 name = "sparopt"
 version = "0.3.0-beta.1"
 dependencies = [
- "oxrdf",
+ "oxrdf_elevont",
  "rand",
  "spargebra",
 ]
